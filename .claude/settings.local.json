@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//private/tmp/**)",
+      "Bash(npx create-next-app@latest webcheck-init --typescript --tailwind --app --src-dir --no-git --use-bun --yes)",
+      "Bash(cp -r /tmp/webcheck-init/* /tmp/webcheck-init/.eslintrc* /tmp/webcheck-init/.gitignore /Users/satoshiamenomori/Projects/webcheck/)",
+      "Bash(cp /tmp/webcheck-init/postcss.config.mjs /Users/satoshiamenomori/Projects/webcheck/)",
+      "Bash(npx create-next-app@15 webcheck-init --typescript --tailwind --app --src-dir --no-git --use-bun --yes)",
+      "Bash(cp -r /tmp/webcheck-init/src .)",
+      "Bash(cp -r /tmp/webcheck-init/public .)",
+      "Bash(bun install:*)",
+      "Bash(bunx shadcn@latest:*)"
+    ]
+  }
+}
